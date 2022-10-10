@@ -9,8 +9,8 @@ import pandas as pd
 import warnings
 warnings.simplefilter("ignore")
 
-df = pd.read_excel('party_data.xlsx', usecols=('RM UID',
-                                               'RM Name',
+df = pd.read_excel('party_data.xlsx', usecols=('Party RM UID',
+                                               'Party RM Name',
                                                'Party Type',
                                                'Party ID'))
 
